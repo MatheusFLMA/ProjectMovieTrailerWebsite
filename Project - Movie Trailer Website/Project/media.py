@@ -11,6 +11,18 @@ class Movie():
     # Function that defines the necessary attributes.
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
+        """This function will be used for instantiation. The arguments will
+        be stored inside methods that will be used by objects.
+
+        Args:
+            self: the object itself.
+            movie_title: A string containing the movie's title.
+            movie_sotoryline: Write few words about the movie's plot.
+            poster_image: A string containing the url of a image.
+            trailer_youtube: A string containing a URL from a
+            YouTube video.
+
+        """
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
