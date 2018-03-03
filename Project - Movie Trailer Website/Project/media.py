@@ -18,7 +18,7 @@ class Movie():
             self: the object itself.
             movie_title: A string containing the movie's title.
             movie_sotoryline: Write few words about the movie's plot.
-            poster_image: A string containing the url of a image.
+            poster_image: A string containing the URL of a poster.
             trailer_youtube: A string containing a URL from a
             YouTube video.
 
